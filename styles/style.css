@@ -118,7 +118,7 @@
 
 
 /* shared style  */
-body {
+.header-container, .banner-container {
     font-family: "Poppins", sans-serif;
     width: 1440px;
     margin: 0 auto;
@@ -145,13 +145,14 @@ body {
 
 
 
-/* heading syle  */
+/* heading style  */
 .logo{
     margin-top: 87px;
 }
 .nav-container{
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 .menu-section{
     margin-top: 95px;
@@ -175,4 +176,57 @@ body {
     height: 25px;
     color: black;
     font-weight: 600;
+}
+/* banner section  */
+.banner-container{
+    height: 500px;
+    
+    
+
+}
+.banner-title{
+    width: 582px;
+    height: 270px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title h2{
+    font-size: 3.25rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+
+}
+.banner-description{
+    margin: 16px 0px;
+
+
+}
+.banner-btn{
+    width: 196px;
+    height: 44px;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    border: none;
+    font-size: 1rem;
+    font-weight: 900;
+}
+.banner-image{
+    justify-content: space-between;
+    align-items: center;
+    width: 440px;
+    height: 414px;
+    z-index: 1;
+    position: relative;
+    
+}
+.banner-image img{
+    
+}
+.bg-img{
+    width: 440px;
+    height: 414px;
+    
+    
 }
